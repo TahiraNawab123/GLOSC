@@ -21,7 +21,7 @@ GLOSC is a professional warehouse management system designed to streamline logis
 
 **Key Design Principle:** All operations flow through the Warehouse Central Hub, ensuring a logical and efficient workflow:
 ```
-Warehouse → Products → Orders → Payments → Delivery
+Warehouse → Fleet Management → Shipment Tracking → Order Processing
 ```
 
 ## ✨ Features
