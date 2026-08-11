@@ -2,7 +2,7 @@
 
 A comprehensive C++ application for managing warehouse operations, fleet logistics, order processing, and shipment tracking in an integrated supply chain management system.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -15,7 +15,7 @@ A comprehensive C++ application for managing warehouse operations, fleet logisti
 - [Technologies Used](#technologies-used)
 - [File Structure](#file-structure)
 
-## 🎯 Overview
+## Overview
 
 GLOSC is a professional warehouse management system designed to streamline logistics operations through a centralized warehouse hub. The system integrates product management, inventory control, order processing, fleet management, and shipment tracking into a unified platform.
 
@@ -24,7 +24,7 @@ GLOSC is a professional warehouse management system designed to streamline logis
 Warehouse → Fleet Management → Shipment Tracking → Order Processing
 ```
 
-## ✨ Features
+## Features
 
 ### Warehouse Management (Core Hub)
 - **Product Catalog**: Binary Search Tree (BST) based product management
@@ -61,7 +61,7 @@ Warehouse → Fleet Management → Shipment Tracking → Order Processing
 - **Visual Hierarchy**: Well-structured menus and sections
 - **User-Friendly**: Intuitive navigation and clear prompts
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system follows a modular architecture with the Warehouse as the central hub:
 
@@ -95,7 +95,7 @@ The system follows a modular architecture with the Warehouse as the central hub:
                     └──────────────┘
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 GLOSC/
@@ -157,14 +157,14 @@ GLOSC/
 └── README.md                   
 ```
 
-## 🔧 Prerequisites
+## Prerequisites
 
 - **Compiler**: GCC (G++) with C++17 support or higher
 - **Operating System**: Windows, Linux, or macOS
 - **Build Tool**: Make (or compatible build system)
 - **Terminal**: ANSI color code support (for UI colors)
 
-## 🚀 Build Instructions
+## Build Instructions
 
 ### Using Make (Recommended)
 
@@ -201,7 +201,7 @@ make
 g++ -std=c++17 -Wall main.cpp WarehouseManagement/*.cpp FleetManagement/*.cpp OrderManagement/*.cpp ShipmentTracking/*.cpp -o project.exe
 ```
 
-## 💻 Usage
+## Usage
 
 ### Starting the Application
 
@@ -225,7 +225,7 @@ project.exe      # Windows
 4. **Assign Fleet**: Navigate to Fleet Management → Assign Driver to Vehicle
 5. **Track Shipment**: Navigate to Shipment Tracking → Add Shipment
 
-## 📦 Modules
+## Modules
 
 ### 1. Warehouse Management (Core Hub)
 - **Purpose**: Central hub for all warehouse operations
@@ -263,7 +263,7 @@ project.exe      # Windows
   - Analytics and reporting
   - Graph traversals (BFS/DFS)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Language**: C++17
 - **Data Structures**:
@@ -285,7 +285,7 @@ project.exe      # Windows
   - Composition
   - Singleton Pattern
 
-## 📊 Data Structures Overview
+## Data Structures Overview
 
 | Module | Primary Data Structures |
 |--------|------------------------|
@@ -294,7 +294,7 @@ project.exe      # Windows
 | Fleet | BST (Vehicle Search), Linked List (Vehicle List), Graph (Routes) |
 | Shipment | BST (Shipment Tree), Graph (Route Network), Dynamic Array |
 
-## 🎨 UI Design
+## UI Design
 
 The application features a professional, light-themed user interface with:
 - Clean color palette (soft blues, grays, and accent colors)
@@ -303,7 +303,7 @@ The application features a professional, light-themed user interface with:
 - Intuitive menu navigation
 - Clear status messages and feedback
 
-## 📝 File I/O
+## File I/O
 
 The system uses text files for data persistence:
 - `Files/products.txt` - Product records
@@ -311,22 +311,12 @@ The system uses text files for data persistence:
 - `Files/categories.txt` - Category definitions
 - `Files/queue_log.txt` - Inventory queue operations
 
-## 🔒 Notes
+## Notes
 
 - All operations flow through the Warehouse Central Hub
 - The system maintains data integrity through proper memory management
 - Template-based implementations ensure type safety
 - Forward declarations prevent circular dependencies
-
-## 📄 License
-
-This project is part of an academic/educational system for logistics management.
-
-## 👥 Contributing
-
-This is a structured academic project. For modifications or improvements, please follow the existing code structure and maintain the warehouse-centric architecture.
-
----
 
 **Version**: 1.0  
 **Last Updated**: 2025  
